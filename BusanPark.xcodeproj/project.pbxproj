@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		14DFB7A11FE8215A00FE39DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFB7A01FE8215A00FE39DC /* AppDelegate.swift */; };
-		14DFB7A31FE8215A00FE39DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFB7A21FE8215A00FE39DC /* ViewController.swift */; };
 		14DFB7A61FE8215A00FE39DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DFB7A41FE8215A00FE39DC /* Main.storyboard */; };
 		14DFB7A81FE8215A00FE39DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DFB7A71FE8215A00FE39DC /* Assets.xcassets */; };
 		14DFB7AB1FE8215A00FE39DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DFB7A91FE8215A00FE39DC /* LaunchScreen.storyboard */; };
 		14DFB7B61FE8215A00FE39DC /* BusanParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFB7B51FE8215A00FE39DC /* BusanParkTests.swift */; };
 		14DFB7C11FE8215A00FE39DC /* BusanParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFB7C01FE8215A00FE39DC /* BusanParkUITests.swift */; };
+		14DFB7D11FE822AA00FE39DC /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFB7D01FE822AA00FE39DC /* TotalMapViewController.swift */; };
+		14DFB7D31FE822C200FE39DC /* SingleMapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFB7D21FE822C200FE39DC /* SingleMapTableViewController.swift */; };
+		14DFB7D61FE8240100FE39DC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DFB7D51FE823FB00FE39DC /* MapKit.framework */; };
+		14DFB7D81FE8241600FE39DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DFB7D71FE8240C00FE39DC /* CoreLocation.framework */; };
+		14DFB7DA1FE84E2E00FE39DC /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14DFB7D91FE84E2E00FE39DC /* data.plist */; };
+		14DFB7DC1FE8581100FE39DC /* icons8-waypoint_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DFB7DB1FE8581100FE39DC /* icons8-waypoint_map.png */; };
+		14DFB7E21FE87F9F00FE39DC /* Default@2x.png (640x960).png in Resources */ = {isa = PBXBuildFile; fileRef = 14DFB7E11FE87F9F00FE39DC /* Default@2x.png (640x960).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		14DFB79D1FE8215A00FE39DC /* BusanPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusanPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DFB7A01FE8215A00FE39DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14DFB7A21FE8215A00FE39DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14DFB7A51FE8215A00FE39DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14DFB7A71FE8215A00FE39DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14DFB7AA1FE8215A00FE39DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		14DFB7BC1FE8215A00FE39DC /* BusanParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusanParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DFB7C01FE8215A00FE39DC /* BusanParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanParkUITests.swift; sourceTree = "<group>"; };
 		14DFB7C21FE8215A00FE39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DFB7D01FE822AA00FE39DC /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
+		14DFB7D21FE822C200FE39DC /* SingleMapTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMapTableViewController.swift; sourceTree = "<group>"; };
+		14DFB7D51FE823FB00FE39DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14DFB7D71FE8240C00FE39DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14DFB7D91FE84E2E00FE39DC /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		14DFB7DB1FE8581100FE39DC /* icons8-waypoint_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-waypoint_map.png"; sourceTree = "<group>"; };
+		14DFB7E11FE87F9F00FE39DC /* Default@2x.png (640x960).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png (640x960).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DFB7D81FE8241600FE39DC /* CoreLocation.framework in Frameworks */,
+				14DFB7D61FE8240100FE39DC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 				14DFB7B41FE8215A00FE39DC /* BusanParkTests */,
 				14DFB7BF1FE8215A00FE39DC /* BusanParkUITests */,
 				14DFB79E1FE8215A00FE39DC /* Products */,
+				14DFB7D41FE823FB00FE39DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +112,15 @@
 		14DFB79F1FE8215A00FE39DC /* BusanPark */ = {
 			isa = PBXGroup;
 			children = (
+				14DFB7E11FE87F9F00FE39DC /* Default@2x.png (640x960).png */,
+				14DFB7DB1FE8581100FE39DC /* icons8-waypoint_map.png */,
 				14DFB7A01FE8215A00FE39DC /* AppDelegate.swift */,
-				14DFB7A21FE8215A00FE39DC /* ViewController.swift */,
 				14DFB7A41FE8215A00FE39DC /* Main.storyboard */,
 				14DFB7A71FE8215A00FE39DC /* Assets.xcassets */,
 				14DFB7A91FE8215A00FE39DC /* LaunchScreen.storyboard */,
+				14DFB7D01FE822AA00FE39DC /* TotalMapViewController.swift */,
+				14DFB7D21FE822C200FE39DC /* SingleMapTableViewController.swift */,
+				14DFB7D91FE84E2E00FE39DC /* data.plist */,
 				14DFB7AC1FE8215A00FE39DC /* Info.plist */,
 			);
 			path = BusanPark;
@@ -123,6 +142,15 @@
 				14DFB7C21FE8215A00FE39DC /* Info.plist */,
 			);
 			path = BusanParkUITests;
+			sourceTree = "<group>";
+		};
+		14DFB7D41FE823FB00FE39DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DFB7D71FE8240C00FE39DC /* CoreLocation.framework */,
+				14DFB7D51FE823FB00FE39DC /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +262,10 @@
 			files = (
 				14DFB7AB1FE8215A00FE39DC /* LaunchScreen.storyboard in Resources */,
 				14DFB7A81FE8215A00FE39DC /* Assets.xcassets in Resources */,
+				14DFB7DA1FE84E2E00FE39DC /* data.plist in Resources */,
 				14DFB7A61FE8215A00FE39DC /* Main.storyboard in Resources */,
+				14DFB7DC1FE8581100FE39DC /* icons8-waypoint_map.png in Resources */,
+				14DFB7E21FE87F9F00FE39DC /* Default@2x.png (640x960).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DFB7A31FE8215A00FE39DC /* ViewController.swift in Sources */,
+				14DFB7D31FE822C200FE39DC /* SingleMapTableViewController.swift in Sources */,
 				14DFB7A11FE8215A00FE39DC /* AppDelegate.swift in Sources */,
+				14DFB7D11FE822AA00FE39DC /* TotalMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
