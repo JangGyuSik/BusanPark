@@ -71,15 +71,15 @@ class SingleMapTableViewController: UITableViewController, CLLocationManagerDele
         
         tel.textLabel?.text = "연락처"
         tel.detailTextLabel?.text = sItem["tel"]
-        facilityConvenience.textLabel?.text = "공원보유 편익시설 "
+        facilityConvenience.textLabel?.text = "편익시설 "
         facilityConvenience.detailTextLabel?.text = sItem["facilityConvenience"]
-        facilityCulture.textLabel?.text = "공원보유 교양시설"
+        facilityCulture.textLabel?.text = "교양시설"
         facilityCulture.detailTextLabel?.text = sItem["facilityCulture"]
-        facilityEct.textLabel?.text = "공원보유 기타시설"
+        facilityEct.textLabel?.text = "기타시설"
         facilityEct.detailTextLabel?.text = sItem["facilityEct"]
-        facilityExercise.textLabel?.text = "공원보유 운동시설"
+        facilityExercise.textLabel?.text = "운동시설"
         facilityExercise.detailTextLabel?.text = sItem["facilityExercise"]
-        facilityPlay.textLabel?.text = "공원보유 유희시설"
+        facilityPlay.textLabel?.text = "유희시설"
         facilityPlay.detailTextLabel?.text = sItem["facilityPlay"]
         instName.textLabel?.text = "관리기관명"
         instName.detailTextLabel?.text = sItem["instName"]
@@ -110,7 +110,7 @@ class SingleMapTableViewController: UITableViewController, CLLocationManagerDele
     func zoomToRegion() {
         // 35.162685, 129.064238
         let center = CLLocationCoordinate2DMake(sLat!, sLong!)
-        let span = MKCoordinateSpanMake(0.4, 0.4)
+        let span = MKCoordinateSpanMake(0.035, 0.035)
         let region = MKCoordinateRegionMake(center, span)
         singleMapView.setRegion(region, animated: true)
     }
